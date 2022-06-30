@@ -1,0 +1,8 @@
+Client type,Interaction,Class of Instrument,Period start,Period end,Notification if <1 average trade per business day in the previous year
+Professional,Placement/transmission,"Exchange traded products (Exchange traded funds, exchange traded notes and exchange traded commodities)",1/1/2019,12/31/2019,Y
+Top five investment firms ranked in terms of trading volumes (descending order),Proportion of volume traded as a percentage of total in that class,Proportion of orders executed as percentage of total in that class,Percentage of passive orders,Percentage of aggressive orders,Percentage of directed orders
+JANE STREET FINANCIAL|549300ZHEHX8M31RP142,35.9,30,0,0,0
+FLOW TRADERS|549300OZTWOFA7BXUF06,26.21,20,0,0,0
+Optiver VOF|7245009KRYSAYB2QCC29,17.53,10,0,0,0
+BANK OF AMERICA MERRILL LYNCH INTERNATIONAL LIMITED|EYKN6V0ZCB8VD9IULB80,13.29,20,0,0,0
+CITIGROUP GLOBAL MARKETS LIMITED|XKZZ2JZF41MRHTR1V493,6.52,10,0,0,0

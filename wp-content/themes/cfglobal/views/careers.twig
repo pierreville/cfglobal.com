@@ -1,0 +1,37 @@
+{% extends 'base.twig' %}
+{% block content %}
+
+{% include 'components/hero-banner.twig' %}
+
+<div class="section py-100 md:py-50">
+	<div class="container">
+		<div class="wysiwyg text-center w-2/3 mx-auto md:w-full">
+			{{ post.introduction|wpautop }}
+		</div>
+	</div>
+</div>
+
+<div class="section pb-100 md:pb-50">
+	<div class="container">
+		<p class="h4 uppercase">Current Vacancies</p>
+		<div class="accordions mt-50 md:mt-30">
+		{% for item in post.get_field('current_vacancies') %}
+			<div class="accordion">
+				<div class="accordion-title js-accordion-title flex justify-between align-center">
+					<span class="text-medium blue">{{ item.title }}</span>
+					<svg class="chevron svg-fill:colour-font">
+						<use xlink:href="#chevron" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+					</svg>
+				</div>
+				<div class="accordion-content">
+					<div class="wysiwyg">
+						{{ item.content|wpautop }}
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+		</div>
+	</div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,27 @@
+.btn {
+	padding: 8px 30px;
+	display: inline-block;
+	transition: all .3s ease;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+.btn-orange {
+	background: $orange;
+	&:hover {
+		background: darken($orange, 10);
+	}
+}
+.btn-blue {
+	background: $blue;
+	transition: all .3s ease;
+	&:hover {
+		background: darken($blue, 10);
+	}
+}
+
+.btn-fixed {
+	text-align: center;
+	display: block;
+	min-width: 250px;
+}

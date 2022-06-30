@@ -1,0 +1,44 @@
+{% extends 'base.twig' %}
+{% block content %}
+
+{% include 'components/hero-banner.twig'%}
+
+<div class="section py-100 md:py-50">
+	<div class="container flex flex-wrap">
+
+		<div class="w-2/3 pr-50 md:w-full md:pr-0 md:mb-50">
+			{# Check on page type selected in the CMS to display content #}
+			{% set page_type = post.page_type %}
+			{% include 'components/resource-pages/' ~ page_type ~ '.twig' %}
+		</div>
+
+		<div class="w-1/3 md:w-full">
+			{% include 'components/sidebar-links.twig' with {links: sibling_pages } %}
+
+			<div class="mt-70 md:mt-50">
+				<p class="h4 blue uppercase bold mb-30">Industry News</p>
+				{% for item in sidebar_news %}
+				<a href="{{ item.link }}" class="hov:blue pb-10 mb-10 border-bottom-grey block">
+					{{ item.title }}
+				</a>
+				{% endfor %}
+				<div class="flex">
+					{% for i in 1..sidebar_news_total %}
+					<a class="mr-10 blue {{ sidebar_current_page == i ? 'bold' }}" href="{{ post.link }}?sb-pg={{i}}"><span>{{ i }}</span></a>
+					{% endfor %}
+				</div>
+			</div>
+
+			<div class="mt-30">
+				<p class="h4 blue uppercase bold mb-30">Categories</p>
+				{% for item in sidebar_categories %}
+					<a href="/resources/industry-news/?c={{ item.slug }}" class="hov:blue pb-10 mb-10 border-bottom-grey block">
+						{{ item.name }}
+					</a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

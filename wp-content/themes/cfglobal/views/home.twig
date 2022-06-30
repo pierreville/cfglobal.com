@@ -1,0 +1,180 @@
+{% extends 'base.twig' %}
+{% block content %}
+
+    <div class="section bg-dark-blue pb-20 pt-100 md:pt-70 md:pb-20">
+        <div class="container flex justify-center">
+            <svg class="home-logo">
+                <use xlink:href="#logo-CF" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            </svg>
+        </div>
+    </div>
+
+    <div class="section vh-70 pt-20 home-hero md:h-auto" style="background: url('{{ post.get_field('hero_image').url }}') no-repeat 50% / cover;">
+        <div class="container flex flex-wrap justify-center align-start h-100">
+            <div class="w-2/3 text-center md:w-full">
+                <p class="white text-large">{{ post.hero_introduction }}</p>
+            </div>
+			<div class="w-full location-windows flex flex-wrap relative mt-80 md:none">
+				{% for item in post.get_field('locations_windows') %}
+				<div class="w-1/3 px-30 text-center relative md:w-full md:mb-30 location-window location-window-{{loop.index}}">
+					<div class="window-wrap">
+						<p class="h1 bold white location-title">{{ item.title }}</p>
+						<div class="image-wrap">
+							<img class="location-image z-2 relative" src="{{ item.image.url }}')">
+						</div>
+					</div>
+				</div>
+					{% if loop.index == 2 %}
+					<div class="connector z-1 md:none"></div>
+					{% endif %}
+				{% endfor %}
+			</div>
+			<!-- Mobile Slider -->
+			<div class="js-location-windows-slider location-windows w-full my-50 none md:block">
+				{% for item in post.get_field('locations_windows') %}
+				<div class="px-30 text-center relative">
+					<p class="h1 bold white location-title">{{ item.title }}</p>
+					<img class="location-image z-2 relative" src="{{ item.image.url }}')">
+				</div>
+				{% endfor %}
+			</div>
+			<div class="w-full flex justify-center align-self-end mb-20">
+				<div class="text-center">
+					<p class="uppercase white">Learn more</p>
+					<svg class="svg-fill:white icon icon-down bounce">
+		                <use xlink:href="#chevron" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+		            </svg>
+				</div>
+			</div>
+        </div>
+    </div>
+
+	<!-- Section 1 -->
+	<div class="section py-50">
+		<div class="container text-center">
+			<div class="w-2/3 mx-auto md:w-full">
+				<h1 class="h1 blue mb-30 uppercase">{{ post.section_1_title }}</h1>
+				<div class="wysiwyg dark-blue mb-30">
+					{{ post.get_field('section_1_content')|wpautop }}
+				</div>
+			</div>
+		</div>
+		<div class="ticker-tape flex">
+			{# Ticker tape is created using identical elements and animating them left #}
+			{# Part 1 #}
+			<div class="flex justify-between py-20 bg-grey-blue">
+				{% for item in post.get_field('ticker_tape') %}
+					<p class="orange bold pl-15 pr-30 uppercase align-center border-right-orange">{{ item.item }}</p>
+				{% endfor %}
+			</div>
+			{# identical 1 #}
+			<div class="flex justify-between py-20 bg-grey-blue">
+				{% for item in post.get_field('ticker_tape') %}
+					<p class="orange bold pl-15 pr-30 uppercase align-center border-right-orange">{{ item.item }}</p>
+				{% endfor %}
+			</div>
+			{# identical 2 #}
+			<div class="flex justify-between py-20 bg-grey-blue">
+				{% for item in post.get_field('ticker_tape') %}
+					<p class="orange bold pl-15 pr-30 uppercase align-center border-right-orange">{{ item.item }}</p>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+
+	<!-- Advantage Section -->
+	<div class="section py-70 relative"  style="background: url('{{ post.get_field('advantage_background').url }}') no-repeat 50% / cover;">
+		<div class="anchor" id="global-advantage"></div>
+		<div class="container text-center">
+			<div class="w-2/3 mx-auto md:w-full">
+				<h2 class="h1 white mb-40">{{ post.advantage_title }}</h2>
+				<p class="white mb-60">{{ post.advantage_introduction }}</p>
+			</div>
+			<div class="flex flex-wrap grid-15 lg:justify-center">
+			{% for item in post.get_field('advantage_pods') %}
+			<div class="w-1/3 px-15 hover-pod lg:w-2/3 lg:mb-20 md:w-full">
+				<div class="bg-trans-blue h-100 p-20 align-center flex lg:p-30 lg:flex-column">
+					<p class="title h3 white uppercase lg:mb-20">{{ item.title }}</p>
+					<p class="white hover-text">{{ item.hover_text }}</p>
+				</div>
+			</div>
+			{% endfor %}
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact Banner -->
+
+
+	<!-- {% include 'components/contact-banner.twig' %} -->
+
+	<!-- Section 2 -->
+	<div class="section py-70">
+		<div class="container text-center">
+			<div class="w-2/3 mx-auto md:w-full">
+				<h2 class="h1 mb-50 blue uppercase">{{ post.section_2_title }}</h2>
+				<div class="wyswiyg">
+					{{ post.get_field('section_2_content')|wpautop }}
+				</div>
+				<a class="btn btn-orange white mt-50" href="{{ post.section_2_cta_link }}">{{ post.section_2_cta_title }}</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- User Stories Section -->
+	<div class="section bg-blue pt-50 pb-70">
+		<h2 class="h1 mb-50 white uppercase text-center">User Stories</h2>
+
+		<div class="px-40">
+			<div class="flex flex-wrap justify-center grid-15">
+			{% for item in recent_stories %}
+				<div class="w-1/4 px-15 grid-item lg:w-1/2 lg:mb-50 sm:w-full">
+					<div class="flex flex-column justify-between h-100">
+						<div class="">
+							<div class="listing-image mb-20" style="background: url('{{ TimberImage(item.listing_image).src('large') }}') no-repeat 50% / cover;"></div>
+							<p class="text-large white bold text-center mb-20">{{ item.title }}</p>
+						</div>
+						<div class="">
+							<div class="flex border-bottom-white pb-5">
+								<div class="w-1/2 white md:pr-5">Location</div>
+								<div class="w-1/2 white bold">{{ item.location }}</div>
+							</div>
+							<div class="flex border-bottom-white py-5">
+								<div class="w-1/2 white md:pr-5">Style</div>
+								<div class="w-1/2 white bold">{{ item.style }}</div>
+							</div>
+							<div class="flex border-bottom-white py-5">
+								<div class="w-1/2 white md:pr-5">AUM Range</div>
+								<div class="w-1/2 white bold">{{ item.aum_range }}</div>
+							</div>
+							<div class="flex border-bottom-white pt-5">
+								<div class="w-1/2 white md:pr-5">Investment focus</div>
+								<div class="w-1/2 white bold">{{ item.investment_focus }}</div>
+							</div>
+							<a class="orange bold uppercase mt-30 block text-center" href="{{ item.link }}">Read more...</a>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+			</div>
+		</div>
+		<div class="flex justify-center mt-50 md:mt-30">
+			<a class="btn btn-orange white" href="/user-stories/"><center>User cases</center></a>
+		</div>
+	</div>
+
+	<!-- Technology Partners -->
+	<div class="section py-100 md:py-50">
+		<div class="container">
+			<h2 class="h1 text-center blue uppercase mb-100 md:mb-50">Technology Partners</h2>
+			<div class="flex flex-wrap align-center justify-center">
+				{% for item in post.get_field('technology_partners') %}
+				<a href="{{ item.link }}" target="_blank" rel="noopener" class="single-partner text-center px-30 md:w-1/2 lg:mb-30">
+					<img src="{{ TimberImage(item.logo).src('medium') }}" alt="{{ item.name }}">
+				</a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+
+{% endblock %}

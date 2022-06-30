@@ -1,0 +1,8 @@
+Client type,Interaction,Class of Instrument,Period start,Period end,Notification if <1 average trade per business day in the previous year
+Professional,Placement/transmission,Other instruments,01/01/2018,31/12/2018,Y
+Top five investment firms ranked in terms of trading volumes (descending order),Proportion of volume traded as a percentage of total in that class,Proportion of orders executed as percentage of total in that class,Percentage of passive orders,Percentage of aggressive orders,Percentage of directed orders
+INVESTEC|84S0VF8TSMH0T6D4K848,61.19,63.49,0,0,0
+BAADER HELVEA|5299005SXWC5JPSP0729,28.96,28.57,0,0,11.11
+FINANCIAL BROKERAGE GROUP|558600U9YMGSR4KAHP73,5.08,3.18,0,0,0
+AVIOR CAPITAL MARKETS|213800N25VHLSIV47443,2.89,3.17,0,0,0
+ICBC STANDARD BANK|F01VVKN4DRF2NWKGQ283,1.88,1.59,0,0,0

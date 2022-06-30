@@ -1,0 +1,14 @@
+<div class="section bg-blue py-40 relative">
+	<div class="container text-center">
+		<p class="h3 white mb-20 uppercase">{{ options.contact_banner_title }}</p>
+		{% if options.contact_banner_introduction %}
+			<p class="white mb-20">{{ options.contact_banner_introduction }}</p>
+		{% endif %}
+		<div class="form-wrap contact-banner-form mb-20">
+			{% filter shortcodes %}
+			[gravityform id=1 title=false description=false ajax=true tabindex=49]
+			{% endfilter %}
+		</div>
+		<div class="wysiwyg white">{{ options.contact_banner_post_form|wpautop }}</div>
+	</div>
+</div>

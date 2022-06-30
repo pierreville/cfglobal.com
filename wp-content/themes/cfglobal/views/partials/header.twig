@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>{{ post.title }}
+            |
+            {{ site.title }}</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=9;IE=10;IE=Edge,chrome=1"/>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=100%, initial-scale=1, minimum-scale=1, user-scalable=no, maximum-scale=1">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-49885551-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-49885551-1');
+        </script>
+
+        <!--<script type='text/javascript'>
+            (function(d, t) {
+                var bh = d.createElement(t),
+                    s = d.getElementsByTagName(t)[0];
+                bh.type = 'text/javascript';
+                bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=bumqr1vubkgdy3j0bddfgq';
+                s.parentNode.insertBefore(bh, s);
+            })(document, 'script');
+        </script>-->
+
+        {{ wp_head }}
+    </head>
+
+    <body class="{{ admin_bar ? 'admin-bar' }}">
+        <span style="display:none;">
+            {% include "./components/svg-sprite.twig" %}
+        </span>
+
+        <div class="header bg-dark-blue relative {{ post.slug != 'home' ? 'faded' }}">
+            <!-- Desktop Nav -->
+            <div class="container desktop-nav flex justify-between align-center {{ post.slug != 'home' ? 'py-15' : 'py-30' }} md:none">
+                <div class="">
+                    {% if post.slug != 'home' %}
+                        <a class="block" href="/">
+                            <svg class="header-logo">
+                                <use xlink:href="#logo-CF" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            </svg>
+                        </a>
+                    {% endif %}
+                </div>
+                <ul class="flex">
+                    {% for item in main_menu.items %}
+                        <li class="pl-20 {{ item.children ? 'hasChildren relative js-has-children' }}">
+                            <a class="white uppercase nav-item {{ post.slug == item.slug ? 'isActive' }}" href="{{ item.link }}">{{ item.name }}</a>
+                            {% if item.children %}
+                                <ul class="sub-nav">
+                                    {% for child in item.children %}
+                                        <li class="mb-5 white uppercase">
+                                            <a class="nav-item" href="{{ child.link }}">{{ child.name }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            {# Fake nav is used as a full-width background for subnav items #}
+            <div class="fake-nav js-fake-nav md:none"></div>
+
+            <!-- Mobile Nav -->
+            <div class="none container mobile-nav justify-between align-center py-20 md:flex">
+                {% if post.slug != 'home' %}
+                    <a class="block" href="/">
+                        <svg class="mobile-logo">
+                            <use xlink:href="#logo-CF" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </a>
+                {% else %}
+                    <div class=""></div>
+                {% endif %}
+                <div class="hamburger js-hamburger-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="mobile-menu js-mobile-menu">
+                <ul>
+                    {% for item in main_menu.items %}
+                        <li class="white mb-10">
+                            <a class="text-large uppercase" href="{{ item.link }}">{{ item.name }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="mobile-menu-overlay js-mobile-menu-overlay"></div>
+        </div>

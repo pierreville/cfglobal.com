@@ -1,0 +1,8 @@
+Client type,Interaction,Class of Instrument,Period start,Period end,Notification if <1 average trade per business day in the previous year
+Professional,Placement/transmission,Equities - Shares & Depositary Receipts (T56),01/01/2018,31/12/2018,N
+Top five investment firms ranked in terms of trading volumes (descending order),Proportion of volume traded as a percentage of total in that class,Proportion of orders executed as percentage of total in that class,Percentage of passive orders,Percentage of aggressive orders,Percentage of directed orders
+ITG EUROPE LIMITED|213800EEC95PRUCEUP63,25.2,39.75,58.56,27.11,0.41
+UBS AG|BFM8T61CT2L1QCEMIK50,18.48,13.03,50.88,27.16,0
+GOLDMAN SACHS INTERNATIONAL|W22LROWP2IHZNBB6K528,10.9,8.2,60.78,32.69,0.05
+WINTERFLOOD SECURITIES|8BRUP6V1DX3PIG2R0745,10.73,6.91,63.21,28.4,66.76
+JP MORGAN SECURITIES|K6Q0W1PS1L1O4IQL9C32,10.32,6.86,64.8,32.6,0

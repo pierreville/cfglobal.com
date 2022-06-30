@@ -1,0 +1,8 @@
+<div class="section vh-40 relative md:h-auto" style="background: url('{{ post.get_field('banner_image').url }}') no-repeat 50% / cover;">
+	<div class="container flex align-center justify-center h-100 z-2">
+		<h1 class="h1 white pt-100 text-center uppercase md:pb-50">{{ post.title_override ? post.title_override : post.title }}</h1>
+	</div>
+	{% if post.get_field('has_overlay') %}
+	<div class="overlay z-1"></div>
+	{% endif %}
+</div>

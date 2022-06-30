@@ -1,0 +1,32 @@
+{# 404 page all styles are added inline, naughty I know, but it keeps the css clean #}
+{% extends 'base.twig' %}
+{% block content %}
+
+
+
+
+
+<div class="section py-70 md:py-50" style="background: url('{{ post.get_field('blocks_background_image').url }}') no-repeat 50% / cover;">
+	<div class="container text-center">
+		<div class="anchor" id="why"></div>
+		<div class="w-2/3 mx-auto md:w-full" style="margin-top:100px;">
+			<h2 class="h1 mb-40">Oops!</h2>
+			<h2 class="h1 mb-40">The page you are looking for cannot be found.</h2>
+
+
+			<p class="mb-60"><a href="/">Go Home </a> <br><a href="/about/"> About</a><br> <a href="/services/">Services</a><br> <a href="/resources/industry-news/">Resources</a><br><a href="/contact/">Contact </a></p>
+
+		</div>
+		<div class="flex flex-wrap grid-15 lg:justify-center">
+		{% for item in post.get_field('hover_blocks') %}
+		<div class="w-1/2 px-15 hover-pod md:w-full mb-20 fixed-height">
+			<div class="bg-trans-blue h-100 p-20 align-center flex lg:p-30 lg:flex-column">
+				<p class="title h3 white lg:mb-20">404 Page</p>
+				<div class="white hover-text wysiwyg text-center">{{ item.hover_text|wpautop }}</div>
+			</div>
+		</div>
+		{% endfor %}
+		</div>
+	</div>
+</div>
+{% endblock %}

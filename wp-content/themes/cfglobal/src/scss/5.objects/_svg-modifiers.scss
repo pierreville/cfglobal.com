@@ -1,0 +1,49 @@
+@each $name, $colour in $theme-colours {
+	.svg-fill\:#{$name} {
+		fill: $colour;
+	}
+}
+@each $name, $colour in $theme-colours {
+	.svg-stroke\:#{$name} {
+		stroke: $colour;
+	}
+}
+
+.icon {
+	height: 32px;
+	width: 32px;
+	position: relative;
+}
+
+.icon-down {
+	transform: rotate(90deg);
+}
+
+.plus {
+	cursor: pointer;
+	position: relative;
+	height: 20px;
+	width: 20px;
+	&::before,
+	&::after {
+		content: '';
+		display: block;
+		width: 60%;
+		height: 3px;
+		background: $white;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	&::after {
+		transform: translate(-50%, -50%) rotate(90deg);
+	}
+}
+
+@media screen and (max-width: $medium) {
+	.plus {
+		height: 30px;
+		width: 30px;
+	}
+}

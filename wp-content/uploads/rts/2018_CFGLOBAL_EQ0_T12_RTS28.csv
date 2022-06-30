@@ -1,0 +1,8 @@
+Client type,Interaction,Class of Instrument,Period start,Period end,Notification if <1 average trade per business day in the previous year
+Professional,Placement/transmission,Equities - Shares & Depositary Receipts (T12),01/01/2018,31/12/2018,N
+Top five investment firms ranked in terms of trading volumes (descending order),Proportion of volume traded as a percentage of total in that class,Proportion of orders executed as percentage of total in that class,Percentage of passive orders,Percentage of aggressive orders,Percentage of directed orders
+DEUTSCHE BANK AG|7LTWFZYICNSX8D621K86,22.18,5.78,0,0,0
+UBG AG|BFM8T61CT2L1QCEMIK50,21.37,31.13,0.56,0.2,1.66
+INVESTEC BANK|84S0VF8TSMH0T6D4K848,10.73,9.42,0,0,2.02
+ITG EUROPE LTD|213800EEC95PRUCEUP63,9.7,13.55,18.45,9.32,0.37
+CREDIT SUISSE |DL6FFRRLF74S01HE2M14,8.44,11.05,0,0,0.44

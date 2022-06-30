@@ -1,0 +1,14 @@
+{% extends 'base.twig' %}
+{% block content %}
+
+{% include 'components/hero-banner.twig' %}
+
+<div class="section">
+	<div class="container py-100 md:py-50">
+		<div class="wysiwyg">
+			{{ post.body_content|wpautop }}
+		</div>
+	</div>
+</div>
+
+{% endblock %}

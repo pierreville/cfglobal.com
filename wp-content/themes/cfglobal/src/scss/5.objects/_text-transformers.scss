@@ -1,0 +1,103 @@
+//Theme colours scss map is located in _colours.scss partial
+@each $name, $colour in $theme-colours {
+	.#{$name} {
+		color: $colour;
+	}
+}
+
+@each $name, $colour in $theme-colours {
+	.hov\:#{$name} {
+		transition: color 0.3s ease;
+
+		&:hover {
+			color: $colour;
+		}
+	}
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+.underline {
+	text-decoration: underline;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.spaced-letters {
+	letter-spacing: 1px;
+}
+
+.text-large {
+	font-size: 24px;
+	line-height: 26px;
+}
+
+.text-medium {
+	font-size: 20px;
+	line-height: 22px;
+}
+
+@media screen and (max-width: $medium) {
+	.text-large {
+		font-size: 20px;
+	}
+	.text-medium {
+		font-size: 18px;
+	}
+}
+
+@each $prefix, $size in $screens {
+    @media screen and (max-width: $size) {
+        .#{$prefix}\:text-left {
+            text-align: left;
+        }
+
+        .#{$prefix}\:text-right {
+            text-align: right;
+        }
+
+        .#{$prefix}\:text-center {
+            text-align: center;
+        }
+
+        .#{$prefix}\:text-justify {
+            text-align: justify;
+        }
+
+        @each $name, $colour in $theme-colours {
+            .#{$prefix}\:#{$name} {
+                color: $colour;
+            }
+        }
+    }
+}
+
+.break-word {
+	word-wrap: break-word;
+}

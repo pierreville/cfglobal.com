@@ -1,0 +1,89 @@
+/*
+* At the moment this just contains some variables but can easily expand to
+* include a modular scale etc.
+*/
+
+$base-font-family: 'Lato', sans-serif;
+$header-font-family: 'Lato', sans-serif;
+$base-font-colour: $colour-font;
+$base-line-height: 1.5;
+$base-font-size: 16px;
+
+p,
+a,
+li,
+blockquote,
+form,span {
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+// Based on http://typecast.com/blog/a-more-modern-scale-for-web-typography
+h1,
+.h1,
+.h1 p {
+	font-size: 2.6em;
+	line-height: 1.05em;
+	font-family: $header-font-family;
+    color: $base-font-colour;
+	font-weight: normal;
+}
+
+h2,
+.h2,
+.h2 p {
+    font-size: 2.25em;
+	line-height: 1.25em;
+	font-family: $header-font-family;
+    color: $base-font-colour;
+    font-weight: normal;
+}
+
+h3,
+.h3,
+.h3 p {
+    font-size: 1.75em;
+	line-height: 1.25em;
+	font-family: $header-font-family;
+    color: $base-font-colour;
+    font-weight: normal;
+}
+
+h4,
+.h4,
+.h4 p {
+    font-size: 1.5em;
+	line-height: 1.45em;
+	font-family: $header-font-family;
+    color: $base-font-colour;
+    font-weight: normal;
+}
+
+h5,
+.h5,
+.h5 p {
+    font-size: 1.2em;
+    line-height: 1.15em;
+    font-family: $header-font-family;
+    color: $base-font-colour;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.ttf");
+	font-weight: bold;
+	font-style: normal;
+}

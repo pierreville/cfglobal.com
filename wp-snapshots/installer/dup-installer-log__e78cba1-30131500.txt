@@ -1,0 +1,763 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 02:18:54
+* VERSION: 1.4.7
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.29                                |7.3.1
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2022-06-30 13:15:00
+WP VERSION__________: 6.0
+DUP VERSION_________: 1.4.7
+DB__________________: 5.7.23
+DB TABLES___________: 43
+DB ROWS_____________: 61,787
+DB FILE SIZE________: 16.51MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.1 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.37 (Unix) OpenSSL/1.0.2q PHP/7.3.1 mod_perl/2.0.8-dev Perl/v5.16.3
+DOC ROOT____________: "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://www.cfglobal.dev.cc/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Users/pierrebastien/Sites/www.cfglobal.dev.cc/20210722_cfglobaltrading_[HASH]_20220630131500_archive.daf"
+SIZE________________: 81.72MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 02:18:56 - RUNTIME: 1.5820 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 02:19:16
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.37 -- Build Server: 5.7.23
+FILE SIZE:	dup-database__[HASH].sql (9.98MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Users/pierrebastien/Sites/www.cfglobal.dev.cc/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	43
+RENAMED TABLES:	0
+QUERIES RAN:	402
+
+5TrV2mN4_commentmeta: (0)
+5TrV2mN4_comments: (0)
+5TrV2mN4_duplicator_packages: (0)
+5TrV2mN4_gf_addon_feed: (0)
+5TrV2mN4_gf_draft_submissions: (0)
+5TrV2mN4_gf_entry: (7795)
+5TrV2mN4_gf_entry_meta: (31278)
+5TrV2mN4_gf_entry_notes: (13346)
+5TrV2mN4_gf_form: (4)
+5TrV2mN4_gf_form_meta: (4)
+5TrV2mN4_gf_form_revisions: (0)
+5TrV2mN4_gf_form_view: (2524)
+5TrV2mN4_gf_rest_api_keys: (0)
+5TrV2mN4_links: (0)
+5TrV2mN4_loginizer_logs: (0)
+5TrV2mN4_options: (374)
+5TrV2mN4_postmeta: (5899)
+5TrV2mN4_posts: (457)
+5TrV2mN4_redirection_404: (0)
+5TrV2mN4_redirection_groups: (2)
+5TrV2mN4_redirection_items: (19)
+5TrV2mN4_redirection_logs: (0)
+5TrV2mN4_rg_form: (2)
+5TrV2mN4_rg_form_meta: (2)
+5TrV2mN4_rg_form_view: (144)
+5TrV2mN4_rg_incomplete_submissions: (0)
+5TrV2mN4_rg_lead: (79)
+5TrV2mN4_rg_lead_detail: (280)
+5TrV2mN4_rg_lead_detail_long: (0)
+5TrV2mN4_rg_lead_meta: (0)
+5TrV2mN4_rg_lead_notes: (0)
+5TrV2mN4_term_relationships: (47)
+5TrV2mN4_term_taxonomy: (5)
+5TrV2mN4_termmeta: (0)
+5TrV2mN4_terms: (5)
+5TrV2mN4_usermeta: (244)
+5TrV2mN4_users: (8)
+5TrV2mN4_yoast_indexable: (167)
+5TrV2mN4_yoast_indexable_hierarchy: (108)
+5TrV2mN4_yoast_migrations: (23)
+5TrV2mN4_yoast_primary_term: (0)
+5TrV2mN4_yoast_seo_links: (10)
+5TrV2mN4_yoast_seo_meta: (248)
+Removed '106' cache/transient rows
+
+INSERT DATA RUNTIME: 4.0782 sec.
+STEP-2 COMPLETE @ 02:19:20 - RUNTIME: 4.0981 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:19:24
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "CF Global Trading"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home4/cfgloba1/public_html"
+path_new______________: "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+siteurl_______________: "http://www.cfglobal.dev.cc"
+url_old_______________: "https://www.cfglobal.com"
+url_new_______________: "http://www.cfglobal.dev.cc"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "5TrV2mN4_commentmeta"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_comments"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_duplicator_packages"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_gf_addon_feed"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_gf_draft_submissions"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_gf_entry"_______________________________[ROWS:  7795][PG:   3][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_gf_entry_meta"__________________________[ROWS: 31278][PG:   9][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_gf_entry_notes"_________________________[ROWS: 13346][PG:   4][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_gf_form"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_gf_form_meta"___________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_gf_form_revisions"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_gf_form_view"___________________________[ROWS:  2524][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_gf_rest_api_keys"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_links"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_loginizer_logs"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_options"________________________________[ROWS:   374][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_postmeta"_______________________________[ROWS:  5899][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_posts"__________________________________[ROWS:   457][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_redirection_404"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_redirection_groups"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_redirection_items"______________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_redirection_logs"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_rg_form"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_rg_form_meta"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_rg_form_view"___________________________[ROWS:   144][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_rg_incomplete_submissions"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_rg_lead"________________________________[ROWS:    79][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_rg_lead_detail"_________________________[ROWS:   280][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_rg_lead_detail_long"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_rg_lead_meta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_rg_lead_notes"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_term_relationships"_____________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_term_taxonomy"__________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_termmeta"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_terms"__________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_usermeta"_______________________________[ROWS:   244][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_users"__________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_yoast_indexable"________________________[ROWS:   167][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_yoast_indexable_hierarchy"______________[ROWS:   108][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_yoast_migrations"_______________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_yoast_primary_term"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "5TrV2mN4_yoast_seo_links"________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+
+EVALUATE TABLE: "5TrV2mN4_yoast_seo_meta"_________________________[ROWS:   248][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/cfgloba1/public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  2:"\/home4\/cfgloba1\/public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  3:"%2Fhome4%2Fcfgloba1%2Fpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  4:"\home4\cfgloba1\public_html" =====================> "/Users/pierrebastien/Sites/www.cfglobal.dev.cc"
+	SEARCH  5:"\\home4\\cfgloba1\\public_html" ==================> "\/Users\/pierrebastien\/Sites\/www.cfglobal.dev.cc"
+	SEARCH  6:"%5Chome4%5Ccfgloba1%5Cpublic_html" ===============> "%2FUsers%2Fpierrebastien%2FSites%2Fwww.cfglobal.dev.cc"
+	SEARCH  7:"//www.cfglobal.com" ==============================> "//www.cfglobal.dev.cc"
+	SEARCH  8:"\/\/www.cfglobal.com" ============================> "\/\/www.cfglobal.dev.cc"
+	SEARCH  9:"%2F%2Fwww.cfglobal.com" ==========================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 10:"//cfglobal.com" ==================================> "//www.cfglobal.dev.cc"
+	SEARCH 11:"\/\/cfglobal.com" ================================> "\/\/www.cfglobal.dev.cc"
+	SEARCH 12:"%2F%2Fcfglobal.com" ==============================> "%2F%2Fwww.cfglobal.dev.cc"
+	SEARCH 13:"https://www.cfglobal.dev.cc" =====================> "http://www.cfglobal.dev.cc"
+	SEARCH 14:"https:\/\/www.cfglobal.dev.cc" ===================> "http:\/\/www.cfglobal.dev.cc"
+	SEARCH 15:"https%3A%2F%2Fwww.cfglobal.dev.cc" ===============> "http%3A%2F%2Fwww.cfglobal.dev.cc"
+--------------------------------------
+SCANNED:	Tables:43 	|	 Rows:63074 	|	 Cells:513814 
+UPDATED:	Tables:9 	|	 Rows:2241 	|	 Cells:2375 
+ERRORS:		0 
+RUNTIME:	14.015600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:19:39 - RUNTIME: 14.0961 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

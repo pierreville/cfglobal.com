@@ -1,0 +1,39 @@
+{# Base.twig - Used as a basis of other twig templates, use extend to make templates that extend what ever blocks in here exist #}
+{% include 'partials/header.twig' %}
+
+
+<div class="d-none d-md-block demo-drawer">
+	<!--<div class="demo-handle text-center">
+		<img class="mb-2" src="{{ theme.uri }}/assets/images/svgs/pm3_logo.svg" alt="PM3" alt="">
+		<h4 class="text-primary font-weight-bold mb-0 pb-0">FREE </h4>
+		<h4 class="text-white">DEMO</h4>-->
+
+	<div class="demo-handle text-center" style="padding-top:25px;padding-bottom:25px;">
+	
+		<h5 class="text-white" style="line-height:1.5rem;color:#24426B;">CONNECT</h5>
+		<h4 class="text-white" style="line-height:1rem;font-size:0.8rem;color:#fff;">with CFG and see what outsourcing can do for you</h4>
+		<!--<img class="mb-2" src="{{ theme.uri }}/assets/images/svgs/pm3_white_black.svg" alt="PM3" alt="">
+		<h4 class="text-white" style="line-height:0.7rem;"><strong>DEMO</strong></h4>-->
+	
+	</div>
+	<div class="demo-inside">
+	<div style="text-align:right;"><a href="" > X </a></div>
+		<!--<p class="h5 text-white mb-3"><strong style="color:#000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</strong></p>
+		<p class="h5 text-white mb-4"><strong style="color:#000;">Connect today!</strong></p>-->
+		<div class="form-wrap demo-form">
+			{% filter shortcodes %}
+			[gravityform id=4 title=false description=false ajax=true tabindex=49]
+			{% endfilter %}
+		</div>
+	</div>
+</div>
+
+
+
+<div class="main">
+
+{% block content %}
+{% endblock %}
+</div>
+
+{% include 'partials/footer.twig' %}

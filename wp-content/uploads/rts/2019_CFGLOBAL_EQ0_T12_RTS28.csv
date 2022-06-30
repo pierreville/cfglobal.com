@@ -1,0 +1,8 @@
+Client type,Interaction,Class of Instrument,Period start,Period end,Notification if <1 average trade per business day in the previous year
+Professional,Placement/transmission,Equities - Shares & Depositary Receipts (T12),1/1/2019,12/31/2019,N
+Top five investment firms ranked in terms of trading volumes (descending order),Proportion of volume traded as a percentage of total in that class,Proportion of orders executed as percentage of total in that class,Percentage of passive orders,Percentage of aggressive orders,Percentage of directed orders
+UBS AG|BFM8T61CT2L1QCEMIK50,34.35,28.43,2.31,0.89,0
+INVESTEC BANK|84S0VF8TSMH0T6D4K848,16.34,13.76,0.04,0.17,0
+CREDIT SUISSE SECURITIES|DL6FFRRLF74S01HE2M14,7.32,8.3,0,0,0
+VIRTU ITG EUROPE LIMITED|213800EEC95PRUCEUP63,6.29,11.83,9.1,4.59,0
+GOLDMAN SACHS INTERNATIONAL|W22LROWP2IHZNBB6K528,5.61,5.8,2.77,2.3,29.85

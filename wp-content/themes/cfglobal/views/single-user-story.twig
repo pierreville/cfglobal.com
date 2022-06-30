@@ -1,0 +1,36 @@
+{% extends 'base.twig' %}
+{% block content %}
+
+<div class="section vh-40 relative" style="background: url('{{ options.banner_image.url }}') no-repeat 50% / cover;">
+	{% if post.get_field('has_overlay') %}
+	<div class="overlay z-1"></div>
+	{% endif %}
+</div>
+
+
+<div class="section py-100 md:py-50">
+	<div class="container flex flex-wrap">
+		<div class="w-2/3 pr-50 md:w-full md:pr-0 md:mb-30">
+			<div class="wysiwyg us-content">
+				<h2 class="h3 bold">{{ post.title }}</h2>
+				{{ post.body_content|wpautop }}
+			</div>
+			<div class="us-listing-image mt-30" style="background: url('{{ post.get_field('listing_image').url }}') no-repeat 50% / cover;"></div>
+		</div>
+
+		<div class="w-1/3 md:w-full md:none">
+			<div class="">
+				<p class="h4 blue uppercase bold mb-30">User Stories</p>
+				{% for item in sidebar_stories %}
+				<a href="{{ item.link }}" class="hov:blue pb-10 mb-10 border-bottom-grey block">
+					{{ item.title }}
+				</a>
+				{% endfor %}
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+{% endblock %}

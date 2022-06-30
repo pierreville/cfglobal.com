@@ -1,0 +1,6 @@
+Client type,Interaction,Class of Instrument,Period start,Period end,Notification if <1 average trade per business day in the previous year
+Professional,Placement/transmission,"Debt instruments, Bonds",1/1/2019,12/31/2019,Y
+Top five investment firms ranked in terms of trading volumes (descending order),Proportion of volume traded as a percentage of total in that class,Proportion of orders executed as percentage of total in that class,Percentage of passive orders,Percentage of aggressive orders,Percentage of directed orders
+JP MORGAN SECURITIES|K6Q0W1PS1L1O4IQL9C32,67.13,66.66,0,0,0
+GOLDMAN SACHS INTERNATIONAL|W22LROWP2IHZNBB6K528,16.48,16.67,0,0,0
+CITIGROUP GLOBAL MARKETS LIMITED|XKZZ2JZF41MRHTR1V493,16.39,16.67,0,0,0

@@ -1,0 +1,33 @@
+// Core colours (used on every site)
+$white: #ffffff;
+$black: #000000;
+$grey: #939598;
+$light-grey: #E6E7E8;
+$med-grey: #C9C9C9;
+
+$orange: #f7912e;
+$grey-blue: #4b5d61;
+$blue: #25426b;
+$dark-blue: #0d0f13;
+$sky-blue: #00B0ED;
+
+$colour-font: #303030;
+
+$theme-colours: (
+	white: $white,
+	black: $black,
+	grey: $grey,
+	light-grey: $light-grey,
+	med-grey: $med-grey,
+	colour-font: $colour-font,
+	dark-blue: $dark-blue,
+	orange: $orange,
+	blue: $blue,
+	grey-blue: $grey-blue,
+	sky-blue: $sky-blue
+);
+
+//social site colours
+$twitter-blue: #55ACEE;
+$facebook-blue: #39619F;
+$google-red: #F33F2C;

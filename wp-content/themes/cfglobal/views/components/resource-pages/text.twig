@@ -1,0 +1,7 @@
+<div class="wysiwyg">
+	{{ post.page_content|wpautop }}
+</div>
+
+{% if post.has_cta %}
+	<a class="btn btn-orange white mt-50" target="_blank" href="{{ post.cta_link }}">{{ post.cta_title }}</a>
+{% endif %}

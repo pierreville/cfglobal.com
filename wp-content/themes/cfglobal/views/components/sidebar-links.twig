@@ -1,0 +1,13 @@
+{% if links %}
+	{% for item in links %}
+		<a href="{{ item.link }}" class="block white uppercase bold btn-blue text-center py-10 w-full mb-20">
+			{{ item.title }}
+		</a>
+	{% endfor %}
+{% else %}
+	{% for item in post.get_field('sidebar_links') %}
+	    <a href="{{ item.link }}" class="block white uppercase bold btn-blue text-center py-10 w-full mb-20">
+			{{ item.title }}
+	    </a>
+	{% endfor %}
+{% endif %}

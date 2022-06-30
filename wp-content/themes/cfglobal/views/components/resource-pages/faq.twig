@@ -1,0 +1,16 @@
+<p class="h3">{{ post.faq_title }}</p>
+<div class="accordions mt-50 md:mt-30">
+{% for item in post.get_field('faqs') %}
+	<div class="accordion thick-border border-bottom-blue">
+		<div class="accordion-title pb-30 js-accordion-title flex justify-between align-center">
+			<span class="text-medium">{{ item.question }}</span>
+			<svg class="chevron svg-fill:colour-font">
+				<use xlink:href="#chevron" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+			</svg>
+		</div>
+		<div class="accordion-content wysiwyg">
+			{{ item.answer|wpautop }}
+		</div>
+	</div>
+{% endfor %}
+</div>

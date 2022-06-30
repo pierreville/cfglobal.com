@@ -1,0 +1,152 @@
+.header {
+	position: fixed;
+	width: 100%;
+	z-index: 20;
+	&.faded {
+		background-color: rgba($dark-blue, 0.7);
+	}
+	.header-logo {
+		width: 150px;
+		height: 70px;
+	}
+	.mobile-logo {
+		width: 120px;
+		height: 50px;
+	}
+	.hamburger {
+		height: 24px;
+		width: 40px;
+		position: relative;
+		z-index: 15;
+		span {
+			position: absolute;
+			width: 30px;
+			height: 2px;
+			background: $white;
+			&:nth-child(2) {
+				top: calc(50% - 1px);
+			}
+			&:nth-child(3) {
+				top: calc(100% - 2px);
+			}
+		}
+	}
+	.mobile-menu {
+		height: 100vh;
+		width: 50vw;
+		position: fixed;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: $dark-blue;
+		z-index: 10;
+		top: 0;
+		transform: translateX(100vw);
+		transition: all .3s ease;
+		border-left: solid 1px $grey;
+		&.isActive {
+			transform: translateX(50vw);
+		}
+	}
+	.mobile-menu-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		z-index: 9;
+		opacity: 0;
+		background: rgba($black, 0.5);
+		transition: opacity .3s ease;
+		max-height: 0;
+		height: 0;
+		&.isActive {
+			height: 100vh;
+			max-height: 100vh;
+			opacity: 1;
+		}
+	}
+
+	.fake-nav {
+		z-index: 1;
+		position: fixed;
+		width: 100vw;
+		left: 0;
+		background-color: rgba($dark-blue, 0.7);
+		max-height: 0;
+		opacity: 0;
+		transition: opacity .3s ease;
+		&.isActive {
+			height: 110px;
+			max-height: 110px;
+			opacity: 1;
+			z-index: 2;
+		}
+	}
+
+	.desktop-nav {
+		position: relative;
+		.sub-nav {
+			position: absolute;
+			display: none;
+			width: 200px;
+		}
+
+		.hasChildren {
+			position: relative;
+			&:hover {
+				.sub-nav {
+					margin-top: 30px;
+					display: block;
+					z-index: 5;
+					height: 120px;
+				}
+				&::before {
+					max-height: 50px;
+					height: 50px;
+				}
+			}
+			&::before {
+				content: '';
+				position: absolute;
+				width: 100%;
+				bottom: -50px;
+				z-index: 5;
+				max-height: 0;
+			}
+		}
+
+		.nav-item {
+			position: relative;
+			&::after {
+				position: absolute;
+				content: '';
+				display: block;
+				bottom: -5px;
+				height: 1px;
+				width: 0;
+				background-color: $white;
+				transition: all .3s ease;
+			}
+			&:hover,
+			&.isActive {
+				&::after {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+// @media screen and (max-width: $medium) {
+// 	.header {
+// 		z-index: 10;
+// 		position: fixed;
+// 		width: 100vw;
+// 	}
+// }
+
+.footer {
+	.footer-logo {
+		width: 180px;
+	}
+}

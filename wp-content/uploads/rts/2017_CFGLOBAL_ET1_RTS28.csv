@@ -1,0 +1,8 @@
+Client type,Interaction,Class of Instrument,Period start,Period end,Notification if <1 average trade per business day in the previous year
+Professional,Placement/transmission,"Exchange traded products (Exchange traded funds, exchange traded notes and exchange traded commodities)",01/01/2017,31/12/2017,Y
+Top five investment firms ranked in terms of trading volumes (descending order),Proportion of volume traded as a percentage of total in that class,Proportion of orders executed as percentage of total in that class,Percentage of passive orders,Percentage of aggressive orders,Percentage of directed orders
+CITI|XKZZ2JZF41MRHTR1V493,63.64,60.82,0,0,0
+BAML|EYKN6V0ZCB8VD9IULB80,20.51,2.06,0,0,0
+ITG|213800EEC95PRUCEUP63,10.17,8.25,0,0,0
+INSTINET|213800MXAKR2LA1VBM44,3.92,19.59,0,0,0
+UBS|REYPIEJN7XZHSUI0N355,1.76,9.28,0,0,0

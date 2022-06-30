@@ -1,0 +1,4 @@
+Client type,Interaction,Class of Instrument,Period start,Period end,Notification if <1 average trade per business day in the previous year
+Professional,Placement/transmission,"Debt instruments, Bonds",01/01/2018,31/12/2018,Y
+Top five investment firms ranked in terms of trading volumes (descending order),Proportion of volume traded as a percentage of total in that class,Proportion of orders executed as percentage of total in that class,Percentage of passive orders,Percentage of aggressive orders,Percentage of directed orders
+UBS AG|BFM8T61CT2L1QCEMIK50,100,100,0,0,0

@@ -1,0 +1,13 @@
+{% for item in posts %}
+<a href="{{ item.link }}" class="block hov:blue border-bottom-grey thick-border pb-20 mb-20">
+	<p class="bold text-large mb-10">{{ item.title }}</p>
+	<p>{{ item.snippet }}</p>
+</a>
+{% endfor %}
+{% if pagination.pages > 0 %}
+<div class="flex">
+	{% for page in pagination.pages %}
+		<a class="icon flex align-center justify-center border-grey mr-10 hov:bg-med-grey {{ page.title == page.current ? 'bg-med-grey' }}" href="{{ page.link }}"><span>{{ page.title }}</span></a>
+	{% endfor %}
+</div>
+{% endif %}

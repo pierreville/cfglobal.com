@@ -1,0 +1,7 @@
+Client type,Interaction,Class of Instrument,Period start,Period end,Notification if <1 average trade per business day in the previous year
+Professional,Placement/transmission,Other instruments,1/1/2019,12/31/2019,Y
+Top five investment firms ranked in terms of trading volumes (descending order),Proportion of volume traded as a percentage of total in that class,Proportion of orders executed as percentage of total in that class,Percentage of passive orders,Percentage of aggressive orders,Percentage of directed orders
+BERENBERG BANK AG|529900UC2OD7II24Z667,49.2,2.99,0,0,100
+FINANCIAL BROKERAGE GROUP|558600U9YMGSR4KAHP73,27.08,32.84,0,0,0
+INVESTEC BANK|84S0VF8TSMH0T6D4K848,19.11,61.19,0,0,0
+AVIOR CAPITAL MARKETS|213800N25VHLSIV47443,4.61,2.98,0,0,0

@@ -1,0 +1,8 @@
+Client type,Interaction,Class of Instrument,Period start,Period end,Notification if <1 average trade per business day in the previous year
+Professional,Placement/transmission,Equities - Shares & Depositary Receipts,01/01/2017,31/12/2017,N
+Top five investment firms ranked in terms of trading volumes (descending order),Proportion of volume traded as a percentage of total in that class,Proportion of orders executed as percentage of total in that class,Percentage of passive orders,Percentage of aggressive orders,Percentage of directed orders
+ITG|213800EEC95PRUCEUP63,22.94,29.45,0,0,0
+CS|DL6FFRRLF74S01HE2M14,12.01,13.42,0,0,0
+UBS|REYPIEJN7XZHSUI0N355,6.85,10.54,0,0,0
+INTERMONTE|YMUU1WGHJKORF9E36I98,5.75,2.82,0,0,0
+HSBC|MP6I5ZYZBEU3UXPYFY54,4.11,0.73,0,0,0

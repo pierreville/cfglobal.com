@@ -1,0 +1,170 @@
+.form-wrap {
+	label {
+		display: none;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	select {
+		background: $white;
+		padding: 10px;
+		font-size: 14px;
+		width: 100%;
+		height: 40px;
+		&::placeholder {
+			text-transform: uppercase;
+		}
+	}
+	textarea {
+		font-size: 14px;
+		padding: 10px;
+		&::placeholder {
+			text-transform: uppercase;
+		}
+	}
+	input[type="submit"] {
+		background: $orange;
+		color: $white;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 14px;
+		transition: all .3s ease;
+		height: 40px;
+		&:hover {
+			background-color: darken($orange, 10);
+		}
+	}
+	.gform_ajax_spinner {
+		display: none;
+	}
+
+	.gform_confirmation_wrapper {
+		color: $white;
+	}
+
+	.gform_anchor {
+		top: -150px;
+    	position: absolute;
+	}
+}
+
+.contact-banner-form {
+	form {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.gform_body {
+		flex: 0 0 80%;
+	    max-width: 80%;
+		.gform_fields {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		.gfield {
+			flex: 0 0 48%;
+		    max-width: 48%;
+		}
+	}
+	.gform_footer {
+		flex: 0 0 16%;
+	    max-width: 16%;
+		input {
+			width: 100%;
+		}
+	}
+	.validation_error,
+	.validation_message {
+		display: none;
+	}
+	.gfield_error {
+		input {
+			border: solid 2px red;
+		}
+	}
+}
+
+@media screen and (max-width: $medium) {
+	.contact-banner-form {
+		.gform_body {
+			flex: 0 0 100%;
+		    max-width: 100%;
+			.gfield {
+				flex: 0 0 100%;
+			    max-width: 100%;
+			}
+		}
+		.gform_footer {
+			flex: 0 0 100%;
+		    max-width: 100%;
+		}
+		input {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.contact-form {
+	.gform_body {
+		margin-bottom: 30px;
+		position: relative;
+	}
+	.gfield {
+		input {
+			border: solid 1px $grey;
+			width: 48%;
+			margin-bottom: 30px;
+		}
+		textarea {
+			border: solid 1px $grey;
+			position: absolute;
+			width: 48%;
+			right: 0;
+			top: 0;
+			height: 100%;
+		}
+		#input_2_6 {
+			margin-bottom: 0;
+		}
+	}
+	input[type="submit"] {
+		float: right;
+		padding: 5px 30px;
+	}
+	.validation_error,
+	.validation_message {
+		display: none;
+	}
+	.gfield_error {
+		input,
+		textarea {
+			border: solid 2px red;
+		}
+	}
+}
+
+@media screen and (max-width: $medium) {
+	.contact-form {
+		.gfield {
+			input {
+				width: 100%;
+			}
+			textarea {
+				position: relative;
+				width: 100%;
+				margin-top: 30px;
+			}
+		}
+		input[type="submit"] {
+			float: left;
+			margin-bottom: 50px;
+			display: block;
+			position: relative;
+		}
+		.gform_footer {
+			margin-bottom: 60px;
+		}
+	}
+}

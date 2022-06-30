@@ -1,0 +1,76 @@
+{% extends 'base.twig' %}
+{% block content %}
+
+{% include 'components/hero-banner.twig'%}
+
+<div class="section py-100 md:py-50">
+	<div class="container">
+		<div class="w-2/3 mx-auto md:w-full">
+			<div class="wysiwyg text-center">
+				{{ post.introduction|wpautop }}
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section bg-blue pt-100 sm:pt-50" id="section-1">
+	<div class="container pb-100 md:pb-50">
+		<div class="w-2/3 mx-auto md:w-full">
+			<p class="h3 white text-center mb-20">{{ post.services_title }}</p>
+			<div class="wysiwyg text-center mb-50 white">
+				{{ post.services_introduction|wpautop }}
+			</div>
+			{% for item in post.get_field('services') %}
+				<div class="accordion thick-border border-bottom-white">
+					<div class="accordion-title pb-20 js-accordion-title flex justify-between align-center">
+						<div class="flex align-center">
+							<img class="service-icon" src="{{ item.icon.url }}" alt="">
+							<span class="text-medium white">{{ item.title }}</span>
+						</div>
+						<svg class="chevron svg-fill:white">
+							<use xlink:href="#chevron" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+						</svg>
+					</div>
+					<div class="accordion-content">
+						{% if item.sub_title %}<p class="h4 white pt-20">{{ item.sub_title }}</p>{% endif %}
+						<div class="pt-20 wysiwyg white">
+							{{ item.text|wpautop }}
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+{% if post.as_title %}
+<div class="section bg-blue relative">
+	<div class="anchor" id="regulatory"></div>
+	<div class="container pb-100 md:pb-50">
+		<div class="w-2/3 mx-auto md:w-full">
+			<p class="h4 white text-center mb-20">{{ post.as_title }}</p>
+			{% for item in post.get_field('as_accordion') %}
+				<div class="accordion thick-border border-bottom-white">
+					<div class="accordion-title pb-20 js-accordion-title flex justify-between align-center">
+						<div>
+							<img class="service-icon" src="{{ item.icon.url }}" alt="">
+							<span class="text-medium white">{{ item.title }}</span>
+						</div>
+						<svg class="chevron svg-fill:white">
+							<use xlink:href="#chevron" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+						</svg>
+					</div>
+					<div class="accordion-content">
+						{% if item.sub_title %}<p class="h4 white pt-20">{{ item.sub_title }}</p>{% endif %}
+						<div class="pt-20 wysiwyg white">
+							{{ item.text|wpautop }}
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+{% endif %}
+
+{% endblock %}

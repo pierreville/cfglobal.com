@@ -1,0 +1,80 @@
+// If DOM is loading, no animation will run
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+
+.bounce {
+	animation: bounce 1.5s infinite linear;
+}
+
+@keyframes bounce {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: 6px;
+	}
+	100% {
+		top: 0;
+	}
+}
+
+.ticker-tape {
+	animation: ticker-tape 10s infinite linear;
+	p {
+		white-space: nowrap;
+	}
+}
+
+@keyframes ticker-tape {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+// Home hero animation keyframes
+@keyframes hero-connector {
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 50%;
+	}
+}
+
+@keyframes hero-window {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes hero-pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes hero-pulse-inner {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1.8);
+		opacity: 0;
+	}
+}

@@ -1,0 +1,74 @@
+{% extends 'base.twig' %}
+{% block content %}
+
+{% include 'components/hero-banner.twig' %}
+
+<div class="section py-100 md:py-50">
+	<div class="container">
+		<div class="wysiwyg text-center w-2/3 mx-auto md:w-full">
+			{{ post.introduction|wpautop }}
+		</div>
+	</div>
+</div>
+
+<div class="section py-70 md:py-50" style="background: url('{{ post.get_field('blocks_background_image').url }}') no-repeat 50% / cover;">
+	<div class="container text-center">
+		<div class="anchor" id="why"></div>
+		<div class="w-2/3 mx-auto md:w-full">
+			<h2 class="h1 white mb-40">{{ post.blocks_title }}</h2>
+			<p class="white mb-60">{{ post.blocks_introduction }}</p>
+		</div>
+		<div class="flex flex-wrap grid-15 lg:justify-center">
+		{% for item in post.get_field('hover_blocks') %}
+		<div class="w-1/2 px-15 hover-pod md:w-full mb-20 fixed-height">
+			<div class="bg-trans-blue h-100 p-20 align-center flex lg:p-30 lg:flex-column">
+				<p class="title h3 white lg:mb-20">{{ item.title }}</p>
+				<div class="white hover-text wysiwyg text-center">{{ item.hover_text|wpautop }}</div>
+			</div>
+		</div>
+		{% endfor %}
+		</div>
+	</div>
+</div>
+
+<div id="team" class="section py-100 md:py-50">
+	<div class="container">
+		<div class="border-bottom-grey pb-50">
+			<div class="flex flex-wrap justify-center md:px-15 md:mb-50">
+			{% if post.founders_top_links %}
+				{% for item in post.get_field('founders_top_links') %}
+					<a class="py-10 mx-30 mb-100 white btn-blue btn-fixed md:w-full md:mx-0 md:mb-20" href="{{ item.link }}">{{ item.title }}</a>
+				{% endfor %}
+			{% endif %}
+			</div>
+			<p class="h1 blue text-center mb-50">{{ post.founders_title }}</p>
+			<p class="text-center">{{ post.founders_introduction }}</p>
+		</div>
+		{% for row in post.get_field('leadership_rows') %}
+		{% set rowIndex = loop.index %}
+		<div class="py-50 border-bottom-grey md:pb-30">
+			<p class="h3 uppercase blue text-center mb-70 md:mb-50">{{ row.title }}</p>
+			<div class="flex flex-wrap grid-50 justify-center md:mx-0">
+				{% for item in row.members %}
+				    <div class="w-1/5 px-30 member-pod relative text-center lg:w-1/4 md:w-1/2 md:mb-30 md:px-20">
+						<div class="member-image mb-20" style="background: url({{ item.image.url }}) no-repeat 50% / cover;"></div>
+						<p class="bold">{{ item.name }}</p>
+						<p class="mb-10">{{ item.job_title }}</p>
+						{% if item.hover_text %}
+							<div class="plus js-plus bg-blue mx-auto circle" data-row="{{ rowIndex }}" data-desc="{{ item.hover_text }}"></div>
+							<div class="md:block member-desc__mob js-member-desc__mob none">
+								{{ item.hover_text }}
+							</div>
+						{% endif %}
+				    </div>
+				{% endfor %}
+			</div>
+			<div class="md:none member-desc js-member-desc-{{ rowIndex }}">
+
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends 'base.twig' %}
+{% block content %}
+
+<div class="section vh-40 relative md:h-auto" style="background: url('{{ options.banner_image.url }}') no-repeat 50% / cover;">
+	<div class="container flex align-center justify-center h-100 z-2">
+		<h1 class="h1 white pt-100 text-center uppercase md:pb-50">{{ options.title_override ? options.title_override : post.title }}</h1>
+	</div>
+	{% if options.has_overlay %}
+	<div class="overlay z-1"></div>
+	{% endif %}
+</div>
+
+
+<div class="section py-100 md:py-50">
+	<div class="container">
+		<div class="wysiwyg text-center w-10/12 mx-auto">
+			{{ introduction|wpautop }}
+		</div>
+	</div>
+</div>
+<div class="section pb-50">
+	<div class="container">
+		<div class="flex flex-wrap grid-15">
+		{% for item in posts %}
+			<div class="w-1/2 px-15 grid-item tall mb-70 md:mb-50 sm:w-full">
+				<div class="listing-image mb-30" style="background: url('{{ TimberImage(item.listing_image).src('large') }}') no-repeat 50% / cover;"></div>
+				<p class="text-large blue bold mb-30">{{ item.title }}</p>
+				<div class="flex border-bottom-blue pb-5">
+					<div class="w-1/4">Location</div>
+					<div class="bold">{{ item.location }}</div>
+				</div>
+				<div class="flex border-bottom-blue py-5">
+					<div class="w-1/4">Style</div>
+					<div class="bold">{{ item.style }}</div>
+				</div>
+				<div class="flex border-bottom-blue py-5">
+					<div class="w-1/4">AUM Range</div>
+					<div class="bold">{{ item.aum_range }}</div>
+				</div>
+				<div class="flex border-bottom-blue pt-5">
+					<div class="w-1/4">Investment focus</div>
+					<div class="bold">{{ item.investment_focus }}</div>
+				</div>
+				<a class="btn btn-blue bold uppercase mt-30 white" href="{{ item.link }}">Read more...</a>
+			</div>
+		{% endfor %}
+	</div>
+	{% if pagination.pages > 0 %}
+	<div class="flex mb-50 justify-center">
+		{% for page in pagination.pages %}
+			<a class="icon flex align-center justify-center border-grey mx-5 hov:bg-light-grey" href="{{ page.link }}"><span>{{ page.title }}</span></a>
+		{% endfor %}
+	</div>
+	{% endif %}
+</div>
+
+
+{% endblock %}
